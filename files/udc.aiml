@@ -1,0 +1,129 @@
+<aiml version="2.0">
+    <!-- Greeting and Introduction -->
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            Hi there! I’m here to help you find the best career in computing for you. What skills or interests do you have in tech?
+        </template>
+    </category>
+    <category>
+        <pattern>HI</pattern>
+        <template>
+            Hello! Let’s figure out the perfect job for you in the world of computers. What do you enjoy doing with technology?
+        </template>
+    </category>
+
+    <!-- Software Developer -->
+    <category>
+        <pattern>I KNOW PYTHON</pattern>
+        <template>
+            That’s awesome! Python is super useful for jobs like <b>Software Developer</b>. Do you like making apps or working on the systems behind them?
+        </template>
+    </category>
+    <category>
+        <pattern>APPS</pattern>
+        <template>
+            Great choice! App developers create the tools and programs people use every day. Try learning frameworks like Flask or Django to get started.
+        </template>
+    </category>
+    <category>
+        <pattern>SYSTEMS</pattern>
+        <template>
+            Systems developers make the software that runs behind the scenes. Learn more about algorithms, databases, and how computers work.
+        </template>
+    </category>
+
+    <!-- Data Analyst -->
+    <category>
+        <pattern>I LIKE FINDING PATTERNS</pattern>
+        <template>
+            That’s cool! You’d be great as a <b>Data Analyst</b>. Have you tried working with tools like Excel or Python to look at data?
+        </template>
+    </category>
+    <category>
+        <pattern>YES</pattern>
+        <template>
+            Awesome! Data analysts take numbers and turn them into useful information. Keep practicing with tools like SQL or Power BI.
+        </template>
+    </category>
+    <category>
+        <pattern>NO</pattern>
+        <template>
+            No worries! You can start by learning Python or Excel. Look for beginner guides online or practice with small data projects.
+        </template>
+    </category>
+
+    <!-- Cybersecurity Specialist -->
+    <category>
+        <pattern>I WANT TO STOP HACKERS</pattern>
+        <template>
+            That’s an important job! Cybersecurity specialists keep systems safe. Do you want to learn about hacking to protect systems, or building defenses?
+        </template>
+    </category>
+    <category>
+        <pattern>HACKING</pattern>
+        <template>
+            Ethical hacking is about testing systems to find weaknesses. Start with tools like Metasploit or learn about certifications like CEH.
+        </template>
+    </category>
+    <category>
+        <pattern>DEFENSES</pattern>
+        <template>
+            Defensive security is about making strong systems to stop hackers. Learn about firewalls, secure coding, and how to monitor networks.
+        </template>
+    </category>
+
+    <!-- Cloud Solutions Architect -->
+    <category>
+        <pattern>I LIKE BUILDING BIG SYSTEMS</pattern>
+        <template>
+            That sounds like a <b>Cloud Solutions Architect</b> job! Do you want to learn about cloud platforms or certifications?
+        </template>
+    </category>
+    <category>
+        <pattern>CLOUD PLATFORMS</pattern>
+        <template>
+            Cloud platforms like AWS and Azure are great to start with. Look into how to build and manage systems on these platforms.
+        </template>
+    </category>
+    <category>
+        <pattern>CERTIFICATIONS</pattern>
+        <template>
+            Certifications like AWS Solutions Architect or Google Cloud Architect are great to show your skills in the cloud.
+        </template>
+    </category>
+
+    <!-- DevOps Engineer -->
+    <category>
+        <pattern>I LIKE MAKING THINGS EASIER</pattern>
+        <template>
+            Sounds like you’d be a great <b>DevOps Engineer</b>. Do you want to learn about automating tasks or writing scripts?
+        </template>
+    </category>
+    <category>
+        <pattern>AUTOMATING TASKS</pattern>
+        <template>
+            Look into tools like Jenkins or Docker for automating tasks. They make running software much faster and easier.
+        </template>
+    </category>
+    <category>
+        <pattern>WRITING SCRIPTS</pattern>
+        <template>
+            Try learning Python or Bash for scripting. These can help you automate boring tasks and save time!
+        </template>
+    </category>
+
+    <!-- Generic Responses -->
+    <category>
+        <pattern>I DON’T KNOW</pattern>
+        <template>
+            That’s okay! What do you enjoy—solving problems, building things, analyzing data, or stopping hackers?
+        </template>
+    </category>
+    <category>
+        <pattern>THANK YOU</pattern>
+        <template>
+            You’re welcome! Good luck with your career. Come back anytime for more advice.
+        </template>
+    </category>
+</aiml>
