@@ -1,11 +1,75 @@
-[
-[" I was ", " he or she was "],
-[" he was ", " I was "],
-[" she was ", " I was "],
-[" I am ", " he or she is "],
-[" I ", " he or she "],
-[" me ", " him or her "],
-[" my ", " his or her "],
-[" myself ", " him or herself "],
-[" mine ", " his or hers "]
-]
+<aiml version="2.0">
+    <!-- First Response with Job List -->
+    <category>
+        <pattern>HI</pattern>
+        <template>
+            Hello! Here are five IT jobs you might like:
+            1. Software Developer  
+            2. System Administrator  
+            3. Network Engineer  
+            4. Cybersecurity Analyst  
+            5. Data Analyst  
+            Which one interests you the most: coding, hardware, or security?
+        </template>
+    </category>
+
+    <!-- Coding Path -->
+    <category>
+        <pattern>CODING</pattern>
+        <template>
+            Awesome! Do you like working on web applications or data analysis? Type WEB or DATA.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WEB</pattern>
+        <template>
+            You might enjoy being a Software Developer!
+        </template>
+    </category>
+
+    <category>
+        <pattern>DATA</pattern>
+        <template>
+            You might enjoy being a Data Analyst!
+        </template>
+    </category>
+
+    <!-- Hardware Path -->
+    <category>
+        <pattern>HARDWARE</pattern>
+        <template>
+            Do you like working with servers or networks? Type SERVERS or NETWORKS.
+        </template>
+    </category>
+
+    <category>
+        <pattern>SERVERS</pattern>
+        <template>
+            You might enjoy being a System Administrator!
+        </template>
+    </category>
+
+    <category>
+        <pattern>NETWORKS</pattern>
+        <template>
+            You might enjoy being a Network Engineer!
+        </template>
+    </category>
+
+    <!-- Security Path -->
+    <category>
+        <pattern>SECURITY</pattern>
+        <template>
+            You might enjoy being a Cybersecurity Analyst!
+        </template>
+    </category>
+
+    <!-- Catch-all -->
+    <category>
+        <pattern>*</pattern>
+        <template>
+            I didn’t get that. Please type CODING, HARDWARE, or SECURITY to continue.
+        </template>
+    </category>
+</aiml>
